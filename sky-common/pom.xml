@@ -49,5 +49,10 @@
             <groupId>com.github.wechatpay-apiv3</groupId>
             <artifactId>wechatpay-apache-httpclient</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-cbor</artifactId>
+            <version>2.13.0</version> <!-- 根据你的需求选择合适的版本 -->
+        </dependency>
     </dependencies>
 </project>

@@ -115,6 +115,12 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-cbor</artifactId>
+            <version>2.13.0</version> <!-- 使用适合你的项目的版本 -->
+        </dependency>
+
     </dependencies>
 
     <build>

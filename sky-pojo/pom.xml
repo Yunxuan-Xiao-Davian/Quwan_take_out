@@ -23,5 +23,10 @@
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-spring-boot-starter</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-cbor</artifactId>
+            <version>2.13.0</version> <!-- 根据你的需求选择合适的版本 -->
+        </dependency>
     </dependencies>
 </project>

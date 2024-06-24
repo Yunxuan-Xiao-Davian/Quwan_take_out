@@ -122,6 +122,11 @@
                 <artifactId>wechatpay-apache-httpclient</artifactId>
                 <version>0.4.8</version>
             </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.dataformat</groupId>
+                <artifactId>jackson-dataformat-cbor</artifactId>
+                <version>2.13.0</version> <!-- 使用适合你的项目的版本 -->
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
