@@ -13,6 +13,11 @@ spring:
       url: jdbc:mysql://${sky.datasource.host}:${sky.datasource.port}/${sky.datasource.database}?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       username: ${sky.datasource.username}
       password: ${sky.datasource.password}
+  redis:
+    host: localhost
+    port: 6379
+    database: 10  # 确保这是一个整数值
+
 
 mybatis:
   #mapper配置文件
